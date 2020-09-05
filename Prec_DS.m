@@ -43,8 +43,7 @@
 %    for "Predict" mode, this is the Treebagger object stores the RF classification
 %     or regression model attained from the "Evaluate" mode;
 
-% pr1: for "Select" and "Evaluate", this is the index of the witholding sample,
-%       the day of year, and the location;
+% pr1: for "Select" and "Evaluate", this is the index of the witholding sample;
 %      for "Predict", this is not requried (for "Predict rate", this can be supplied
 %       as the residual of precipitation rate for a time step if the residual
 %       is added back to the prediction);
